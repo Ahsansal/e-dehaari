@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "463913562781",
+    "project_id": "e-dehaari",
+    "storage_bucket": "e-dehaari.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463913562781:android:db16e99e653444bcf61a74",
+        "android_client_info": {
+          "package_name": "com.example.edehaari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463913562781-ernrqjotcqrsckgjaqjpn34s65okr037.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkc7a4wNsyp6-PR9A41SPTKNd1VCuKiTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463913562781-ernrqjotcqrsckgjaqjpn34s65okr037.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
