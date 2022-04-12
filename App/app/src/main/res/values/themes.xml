@@ -1,16 +1,69 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.EDehaari" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
+<resources>
+
+    <style name="Theme.EDehaari" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <!-- Original AppCompat attributes. -->
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorSecondary">@color/dark_green</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorError">@color/red</item>
+
+        <!-- New MaterialComponents attributes. -->
         <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <item name="colorSurface">@color/dark_green</item>
+        <item name="colorOnPrimary">@color/dark_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnBackground">@color/dark_green</item>
+        <item name="colorOnError">@color/dark_green</item>
+        <item name="colorOnSurface">@color/dark_green</item>
+        <item name="scrimBackground">@color/mtrl_scrim_color</item>
+        <item name="android:textColor">@color/dark_green</item>
+        <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1
+        </item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2
+        </item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3
+        </item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headline4
+        </item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.MaterialComponents.Headline5
+        </item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.MaterialComponents.Headline6
+        </item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1
+        </item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2
+        </item>
+        <item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
+
+        <item name="snackbarStyle">@style/Widget.App.Snackbar</item>
     </style>
+
+    <style name="Widget.App.Snackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Snackbar</item>
+        <item name="animationMode">slide</item>
+    </style>
+    <style name="ThemeOverlay.App.Snackbar" parent="">
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.Button.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Theme.EDehaari.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.EDehaari.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.EDehaari.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
